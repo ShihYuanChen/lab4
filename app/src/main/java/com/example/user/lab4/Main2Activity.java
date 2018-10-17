@@ -56,7 +56,8 @@ public class Main2Activity extends AppCompatActivity {
                 }
             }
         });
-        sent_btn = (Button) findViewById(R.id.sent);
+
+        sent_btn = (Button) findViewById(R.id.button);
         sent_btn.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v){
